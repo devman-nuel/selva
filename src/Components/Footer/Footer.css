@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 
@@ -32,6 +32,12 @@
 
 .footer-text{
     max-width: 300px;
+}
+
+.footer-text span{
+    font-family: 'Neue-Regular';
+    color: #7c7c7c;
+    line-height: 24px;
 }
 
 
@@ -68,6 +74,7 @@
     border-top: 1px solid #ccc;
     padding: 25px 0;
     color: #7c7c7c;
+    font-family: 'Neue-Regular';
 }
 
 .terms{
