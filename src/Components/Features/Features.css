@@ -1,0 +1,205 @@
+.features{
+    padding: 80px 6em;
+}
+
+.feature-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feature-head h2{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 16px;
+    font-family: 'Neue-Regular';
+    color: #000119;
+}
+
+.feature-head p{
+    width: 40%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #AAAAAA;
+    font-family: 'Neue-Regular';
+}
+
+.feat-con{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feat-left{
+    background: #F9F9F9;
+    border: 1px solid #f0f0f0;
+    flex-basis: 48%;
+    padding: 30px 4%;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    border-radius: 20px;
+}
+
+.automat{
+    font-size: 20px;
+    font-family: 'Neue-Medium'; 
+    margin-bottom: 10px;
+}
+
+.automat-text{
+    color: #7C7C7C;
+    font-family: 'Neue-Regular'; 
+    line-height: 24px;
+}
+
+.text-meet{
+    display: flex;
+    gap: 15px;
+}
+
+.text-meet img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.slack{
+    display: flex;
+    flex-direction: column;
+}
+
+.slack p{
+    font-family: 'Neue-Medium';
+}
+
+.slack span{
+    color: #7C7C7C;
+}
+
+.meet-toggle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+.toggle-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.toggle-name:last-child{
+  border-radius: 20px 20px 0 0;
+}
+
+
+
+.tog-btn{
+    display: flex;
+    background: #DBEDF4;
+    width: 50px;
+    height: 25px;
+    border-radius: 30px;
+    padding: 3px;
+    justify-content: flex-end;
+}
+
+.tog-btn div{
+    width:  19px ;
+    height: 19px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.meet-orbit{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.meet-orbit img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 900px){
+    .features{
+        padding: 80px 1.5em;
+    }
+    
+    .feature-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .feature-head h2{
+        width: 100%;
+        margin: 0 auto;
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 16px;
+        font-family: 'Neue-Regular';
+        color: #000119;
+    }
+    
+    .feature-head p{
+        width: 100%;
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0px;
+        color: #AAAAAA;
+        font-family: 'Neue-Regular';
+    }
+
+    .feat-con{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .feat-left{
+        background: #F9F9F9;
+        flex-basis: 100%;
+        padding: 30px 5%;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+        border-radius: 20px;
+    }
+
+    .meet-toggle{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 5px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .auto{
+        padding: 0 10px;
+    }
+}

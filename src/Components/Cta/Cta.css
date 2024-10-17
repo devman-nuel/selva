@@ -1,0 +1,60 @@
+.cta{
+    width: 85%;
+    background: #141643;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.cta div{
+    padding: 40px;
+}
+
+.cta div h2{
+    width: 50%;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
+    margin-bottom: 16px;
+    font-family: 'Neue-Regular';
+}
+
+.cta div p{
+    width: 90%;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #AAAAAA;
+    font-family: 'Neue-Regular'
+}
+
+.cta div button{
+    margin-top: 20px;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-family: 'Neue-Regular';
+    border: none;
+}
+
+@media screen and (max-width: 900px){
+    .cta{
+        width: 90%;
+        background: #141643;
+        margin: 0 auto;
+        border-radius: 20px;
+    }   
+
+    .cta div{
+        padding: 20px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .cta div h2{
+        width: 100%;
+        font-size: 32px;
+        line-height: 44px;
+        color: #fff;
+        margin-bottom: 16px;
+        font-family: 'Neue-Regular';
+    }
+}

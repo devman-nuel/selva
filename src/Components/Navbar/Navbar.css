@@ -1,0 +1,46 @@
+.navbar{
+    background:#000119;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 6em;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.logo p{
+    color: #FFFFFF;
+    font-family: 'Neue-Medium';
+}
+
+.nav-btn button{
+    padding: 12px 22px;
+    border: 2px solid #8E9994 ;
+    border-radius: 60px;
+    font-family: 'Neue-Medium';
+}
+
+@media screen and (max-width: 900px){
+    .navbar{
+        background:#000119;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5em 1.5em;
+    }
+
+    .logo p{
+        display: none;
+    }
+}
