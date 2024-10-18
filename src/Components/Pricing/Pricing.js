@@ -6,7 +6,7 @@ function Pricing() {
     <div className='pricing'>
      <div className='feature-head'>
         <h2>Select Subscription Plan</h2>
-        <p>Manage your events and appointments, set reminders ensuring your schedule stays organized and stress-free</p>
+        <p>Choose the plan that best suits your needs, offering flexible options for all levels of service and support.</p>
       </div>
     </div>
   )

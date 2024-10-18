@@ -6,7 +6,7 @@ function Features() {
     <div className='features'>
       <div className='feature-head'>
         <h2>Seamlessly Fixing Your Scheduling Problems</h2>
-        <p>Manage your events and appointments, set reminders ensuring your schedule stays organized and stress-free</p>
+        <p>Effortlessly resolve conflicts and manage your calendar with ease, ensuring smooth and hassle-free scheduling.</p>
       </div>
 
       <div className='feat-con'>

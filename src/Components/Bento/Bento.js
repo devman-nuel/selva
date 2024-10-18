@@ -6,7 +6,7 @@ function Bento() {
     <div className='bento'>
       <div className='feature-head'>
         <h2>Quick glance at what we offer</h2>
-        <p>Manage your events and appointments, set reminders ensuring your schedule stays organized and stress-free</p>
+        <p>Explore our comprehensive services at a glance, designed to meet your needs efficiently and effectively.</p>
       </div>
 
       <div className='offer-con'>

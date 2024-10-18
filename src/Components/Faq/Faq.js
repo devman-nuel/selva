@@ -41,7 +41,7 @@ function Faq() {
     <div className='faq'>
       <div className='feature-head'>
         <h2>Frequently Asked Questions</h2>
-        <p>Manage your events and appointments, set reminders ensuring your schedule stays organized and stress-free</p>
+        <p>Find clear answers to common queries, helping you quickly resolve any concerns or uncertainties</p>
       </div>
 
       <div className='faq-con'>
