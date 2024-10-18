@@ -17,76 +17,7 @@ function Hero() {
      
        <div className="feature-section">
           <div className='calendar-box'>
-             <div className='calendar-head'>
-               <div className='days'>
-                 <div className='day-box'>
-                   <p>S</p>
-                   <span>11</span>
-                 </div>
-                 <div className='day-box'>
-                   <p>M</p>
-                   <span>12</span>
-                 </div>
-                 <div className='day-box'>
-                   <p>T</p>
-                   <span>13</span>
-                 </div>
-                 <div className='day-box'>
-                   <p>W</p>
-                   <span>14</span>
-                 </div>
-                 <div className='day-box'>
-                   <p>T</p>
-                   <span>15</span>
-                 </div>
-                 <div className='day-box'>
-                   <p>F</p>
-                   <span>16</span>
-                 </div>
-                 <div className='day-box'>
-                   <p>S</p>
-                   <span>17</span>
-                 </div>
-
-               </div>
-             </div>
-
-             <div className='meetings'>
-               <div className='meet-bar'>
-                    
-                     <div className='meet-edit'>
-                        <div className='meet-img'>
-                          <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729059058/icons8-google-meet-96_ou7zsx.png' alt='meet-icon'></img>
-                        </div>
-                       <div>
-                        <p>Google Meet</p>
-                       <span>12.30pm</span>
-                      </div>
-                     </div>
-
-                    <div className='edit'>
-                    <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729059275/icons8-edit-50_v6f0go.png' alt='edit'></img>
-                    </div>
-               </div>
-
-               <div className='meet-bar'>
-                    
-                     <div className='meet-edit'>
-                        <div className='meet-img'>
-                          <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729059100/icons8-youtube-96_qbevak.png'  alt='meet-icon'></img>
-                        </div>
-                       <div>
-                        <p>Live stream</p>
-                       <span>5.00pm</span>
-                      </div>
-                     </div>
-
-                    <div className='edit'>
-                      <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729059275/icons8-edit-50_v6f0go.png' alt='edit'></img>
-                    </div>
-               </div>
-             </div>
-
+          
           </div>
         
         {/* Bottom calendar overview section */}

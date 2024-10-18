@@ -25,6 +25,7 @@
 }
 
 .nav-btn button{
+    background: #fff;
     padding: 12px 22px;
     border: 2px solid #8E9994 ;
     border-radius: 60px;
