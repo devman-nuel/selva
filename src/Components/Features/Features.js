@@ -21,7 +21,7 @@ function Features() {
               <div className='text-meet'>
                 <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729147417/icons8-zoom-94_dh1of8.png' alt=''></img>
                 <div className='slack'>
-                  <p>Shareholder Forum</p>
+                  <p>Dev's Forum</p>
                   <span>12.50pm</span> 
                 </div>
               </div>
@@ -35,7 +35,7 @@ function Features() {
               <div className='text-meet'>
                 <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729147407/icons8-slack-96_faa08z.png' alt=''></img>
                 <div className='slack'>
-                  <p>Slack Stand-up</p>
+                  <p>Stand-up</p>
                   <span>3.00pm</span> 
                 </div>
               </div>
@@ -49,7 +49,7 @@ function Features() {
               <div className='text-meet'>
                 <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729147398/icons8-google-calendar-128_rbb06k.png' alt=''></img>
                 <div className='slack'>
-                  <p>Daniel’s Dinner Date</p>
+                  <p>Dinner Date</p>
                   <span>12.50pm</span> 
                 </div>
               </div>
