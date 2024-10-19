@@ -18,7 +18,6 @@ function Pricing() {
                 </div>
 
                 <div className='pricing-features'>
-                    <span>Features</span>
 
                     <div className='pricing-list'>
                         <div className='pricing-detail'>
@@ -53,7 +52,6 @@ function Pricing() {
                 </div>
 
                 <div className='pricing-features'>
-                    <span>Features</span>
 
                     <div className='pricing-list'>
                         <div className='pricing-detail'>
@@ -88,12 +86,11 @@ function Pricing() {
                 </div>
 
                 <div className='pricing-features'>
-                    <span>Features</span>
 
                     <div className='pricing-list'>
                         <div className='pricing-detail'>
                             <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729371839/icons8-done-24_lqv2in.png' alt=''></img>
-                            <p>All features of the Duo plan</p>
+                            <p>All features of the advanced plan</p>
                         </div>
 
                         <div className='pricing-detail'>
