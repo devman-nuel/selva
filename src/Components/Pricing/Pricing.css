@@ -135,7 +135,7 @@
    
 
     .pricing-box, .pricing-mainbox {
-        flex: 0 0 288px; /* Set a fixed width for each box */
+        flex: 0 0 280px; /* Set a fixed width for each box */
         border: 1px solid #E4E5F4;
         padding: 30px 25px;
         border-radius: 30px;
