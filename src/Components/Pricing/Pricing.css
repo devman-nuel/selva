@@ -14,7 +14,7 @@
 
 .pricing-box{
     width: 100%;
-    border: 1px solid #E4E5F4;
+    border: 1px solid #f0f0f0;
     padding: 30px 25px;
     border-radius: 30px;
 }
@@ -65,13 +65,19 @@
 .pricing-features button{
     width: 100%;
     margin-top: 50px;
-    border: 1px solid #C1C5EE;
+    border: 1px solid #f0f0f0;
     padding: 15px 0;
     border-radius: 14px;
     font-family: 'Neue-Regular';
     background: transparent;
     cursor: pointer;
     transition: all ease-in 0.3s;
+}
+
+.pricing-features button:hover{
+    color: #fff;
+    background:#01045a;
+    font-family: 'Neue-Medium';
 }
 
 .pricing-mainbox{
@@ -85,7 +91,7 @@
 }
 
 .pricing-mainbox .pricing-features button{
-    background:#000119;
+    background:#01045a;
     color: #fff;
     font-family: 'Neue-Regular';
     cursor: pointer;
@@ -93,14 +99,14 @@
 }
 
 .pricing-mainbox .pricing-features button:hover{
-    background:#000127;
+    background:#01045a;
     font-family: 'Neue-Medium';
 }
 
 @media screen and (max-width: 900px){
     .pricing {
         padding: 80px 0;
-        padding-left: 1.5em;
+        padding: 0 1.5em;
     }
 
     .pricing-con {
@@ -126,12 +132,10 @@
         display: none;
     }
 
-    .pricing-con:last-child{
-        padding-right: 1.5em;
-    }
+   
 
     .pricing-box, .pricing-mainbox {
-        flex: 0 0 295px; /* Set a fixed width for each box */
+        flex: 0 0 288px; /* Set a fixed width for each box */
         border: 1px solid #E4E5F4;
         padding: 30px 25px;
         border-radius: 30px;
