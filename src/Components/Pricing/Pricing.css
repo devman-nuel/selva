@@ -76,7 +76,7 @@
 
 .pricing-features button:hover{
     color: #fff;
-    background:#01045a;
+    background:#000119;
     font-family: 'Neue-Medium';
 }
 
@@ -91,7 +91,7 @@
 }
 
 .pricing-mainbox .pricing-features button{
-    background:#01045a;
+    background:#161616;
     color: #fff;
     font-family: 'Neue-Regular';
     cursor: pointer;
@@ -99,7 +99,7 @@
 }
 
 .pricing-mainbox .pricing-features button:hover{
-    background:#01045a;
+    background:#000119;
     font-family: 'Neue-Medium';
 }
 
