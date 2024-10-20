@@ -4,13 +4,15 @@ import './Cta.css';
 function Cta() {
   return (
     <div className='cta'>
-        <div>
+        <div className='cta-con'>
           <h2>Ready to simplify your event planning?</h2>
           <p>Experience the difference with our powerful calendar app—no credit card required!</p>
           <button>Get Started Today</button>
         </div>
 
-        <img alt=''></img>
+        <div>
+          <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729406089/global-globalization-world-map-environmental-concservation-concept_nfulks.png' alt='map'></img>
+        </div>     
     </div>
   )
 }

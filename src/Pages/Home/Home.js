@@ -13,8 +13,8 @@ function Home() {
        <Hero />
        <Features />
        <Bento />
-       <Pricing />
        <Faq />
+       <Pricing />
        <Testimonial />
        <Cta />
       </div>

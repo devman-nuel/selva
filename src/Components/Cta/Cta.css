@@ -1,16 +1,26 @@
 .cta{
     width: 85%;
     background: #141643;
+    height: 55vh;
     margin: 0 auto;
+    margin-top: 80px;
     border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
 .cta div{
-    padding: 40px;
+    width: 100%;
 }
 
-.cta div h2{
-    width: 50%;
+.cta-con{
+    padding: 40px 0;
+    padding-left: 40px;
+} 
+
+.cta-con h2{
+    width: 70%;
     font-size: 40px;
     line-height: 52px;
     color: #fff;
@@ -18,12 +28,12 @@
     font-family: 'Neue-Regular';
 }
 
-.cta div p{
+.cta-con p{
     width: 90%;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0px;
-    color: #AAAAAA;
+    color: #7c7c7c;
     font-family: 'Neue-Regular'
 }
 
@@ -36,6 +46,14 @@
     font-family: 'Neue-Regular';
 }
 
+.cta div img{
+  width: 100%;
+  align-content: last baseline;
+  margin-top: 100px;
+  filter: invert(100%) brightness(1000%);
+  opacity: 0.1;
+}
+
 @media screen and (max-width: 900px){
     .cta{
         width: 90%;
@@ -43,19 +61,22 @@
         margin: 0 auto;
         border-radius: 20px;
         padding: 20px 0;
+        flex-direction: column;
+        height: 100%;
+        margin-top: 40px;
     }   
 
-    .cta div{
+    .cta-con{
         padding: 20px;
         margin-bottom: 0;
-        padding-bottom: 0;
+        padding-bottom: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .cta div h2{
+    .cta-con h2{
         width: 100%;
         font-size: 32px;
         line-height: 44px;
@@ -63,4 +84,14 @@
         margin-bottom: 16px;
         font-family: 'Neue-Regular';
     }
+
+    .cta div img{
+        display: none;
+        width: 100%;
+        align-content: last baseline;
+        margin-top: 100px;
+        filter: invert(100%) brightness(1000%);
+        opacity: 0.1;
+      }
+      
 }
