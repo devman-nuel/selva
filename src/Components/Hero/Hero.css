@@ -102,12 +102,47 @@
   }
 
   .calendar-box{
+    width: 100%;
+    margin: 0 auto;
     background: #fff;
     color: #272845;
-    padding-bottom: 10px;
+    padding: 20px;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
   }
 
+  .calbox-text{
+    padding: 20px;
+    font-family: 'Neue-Medium';
+    border-radius: 12px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .calbox-text img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+  }
+
+  #color{
+    border-left: 6px solid #0D74CF;
+    background: #F8FBFF;
+  }
+
+  #temp{
+    background: #ECFDF3;
+    border-left: 6px solid #059756;
+  }
+
+
+#shared{
+  background: #FFF7F4;
+  border-left: 6px solid #DD900E;
+}
   
   .calendar-overview {
     background-color: #000119;
@@ -186,6 +221,21 @@
     color: #AAAAAA;
     margin-bottom: 40px;
     font-family: 'Neue-Regular';
+  }
+
+  .calbox-text{
+    padding: 10px 20px;
+    font-family: 'Neue-Medium';
+    border-radius: 12px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .calbox-text img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
   }
   
 

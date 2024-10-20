@@ -17,7 +17,18 @@ function Hero() {
      
        <div className="feature-section">
           <div className='calendar-box'>
-          
+            <div className='calbox-text' id='color'>
+               <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729438828/icons8-color-48_l2jpps.png' alt='calbox'></img>
+               <span>Color-Coded Events</span>
+            </div>
+            <div className='calbox-text' id='temp'>
+              <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729439204/icons8-files-58_1_djboki.png' alt='calbox'></img>
+               <span>Event Templates</span>
+            </div>
+            <div className='calbox-text' id='shared'>
+              <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729438828/icons8-share-48_uxjwaa.png' alt='calbox'></img>
+               <span>Shared Calendars</span>
+            </div>
           </div>
         
         {/* Bottom calendar overview section */}
