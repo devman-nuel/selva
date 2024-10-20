@@ -105,8 +105,8 @@
 
 @media screen and (max-width: 900px){
     .pricing {
-        padding: 80px 0;
-        padding: 0 1.5em;
+        padding: 60px 1.5em;
+        padding-bottom: 40px;
     }
 
     .pricing-con {
