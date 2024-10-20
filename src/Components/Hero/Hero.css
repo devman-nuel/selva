@@ -1,6 +1,7 @@
 /* HeroSection.css */
 .hero {
-    height: 100vh;
+    padding-top: 120px;
+    padding-bottom: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,7 +186,8 @@
 
   @media screen and (max-width: 900px){
     .hero{
-      height: auto;
+      padding-top: 80px;
+      padding-bottom: 20px;
     }
 
     .hero-content{
