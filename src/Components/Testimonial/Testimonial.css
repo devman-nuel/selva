@@ -38,9 +38,14 @@
     display: flex;
     gap: 20px;
     width: max-content; /* Adjust width for continuous scroll */
-    animation: marquee 15s linear infinite;
+    animation: marquee 20s linear infinite;
     position: relative;
     align-items: center;
+    transition: all ease-in 0.3s;
+}
+
+.test-con:hover{
+   animation: none;
 }
 
 .test-card {
