@@ -11,7 +11,44 @@ function Bento() {
 
       <div className='offer-con'>
           <div className='offer-box'>
-            <div className='offer-visuals'></div>
+            <div className='offer-visuals'>
+               <div className='seamless-sche'>
+                 <div className='delete'>
+                  <p>21st October, 2024</p>
+                  <img alt=''></img>
+                 </div>
+
+                <div className='label'>
+                  <p>Frank's Graduation</p>
+                  <img alt=''></img>
+                </div>
+
+                <div className='laps'>
+                  <div className='lap-box'>
+                    <p>From</p>
+                    <span>9:00AM</span>
+                  </div>
+
+                  <div className='lap-box'>
+                    <p>To</p>
+                    <span>9:00PM</span>
+                  </div>
+                </div>
+
+                <div className='laps'>
+                  <div className='lap-box'>
+                    <p>Reminder</p>
+                    <img alt=''></img>
+                  </div>
+
+                  <div className='lap-box'>
+                    <p>Sync</p>
+                    <img alt=''></img>
+                  </div>
+                </div>
+
+               </div>
+            </div>
             <div className='offer-text'>
               <p>Seamless Scheduling</p>
               <span>Effortlessly find common availability and schedule meetings seamlessly.</span>
@@ -19,25 +56,129 @@ function Bento() {
           </div>
 
           <div className='offer-box'>
-            <div className='offer-visuals'></div>
+            <div className='offer-visuals'>
+               <div className='time-zone'>
+                 <div className='zone'>
+                   <div className='zone-box'>
+                    <div className='globe'>
+                      <img alt=''></img>
+                    </div>
+
+                    <div className='zone-text'>
+                      <p>Time Zone</p>
+                      <span>CET (Central European Time)</span>
+                    </div>
+                   </div>
+
+                   <div className='utc'>
+                    <p>UTC+01:00</p>
+                    <span>10:00 AM</span>
+
+                   </div>
+                 </div>
+                 <div className='zone'>
+                   <div className='zone-box'>
+                    <div className='globe'>
+                      <img alt=''></img>
+                    </div>
+
+                    <div className='zone-text'>
+                      <p>Time Zone</p>
+                      <span>GMT (Greenwich Mean Time)</span>
+                    </div>
+                   </div>
+
+                   <div className='utc'>
+                    <p>UTC±00:00</p>
+                    <span>10:00 AM</span>
+
+                   </div>
+                 </div>
+                 <div className='zone'>
+                   <div className='zone-box'>
+                    <div className='globe'>
+                      <img alt=''></img>
+                    </div>
+
+                    <div className='zone-text'>
+                      <p>Time Zone</p>
+                      <span>CST (Central Standard Time)</span>
+                    </div>
+                   </div>
+
+                   <div className='utc'>
+                    <p>UTC+01:00</p>
+                    <span>10:00 AM</span>
+
+                   </div>
+                 </div>
+
+
+               </div>
+            </div>
             <div className='offer-text'>
-              <p>Automated Reminders</p>
+              <p>Time Zone Management</p>
               <span>Stay on top of your commitments with automated reminders and notifications.</span>
             </div>
           </div>
 
           <div className='offer-box'>
-            <div className='offer-visuals'></div>
+            <div className='offer-visuals'>
+              <div className='custom'>
+                <div className='custom-mode'>
+                  <p>21st October 2024</p>
+
+                  <button>
+                    <p>Weekly</p>
+                    <img alt=''></img>
+                  </button>
+                </div>
+
+                <div className='custom-date'>
+                  <button className='inactive'>18</button>
+                  <button  className='inactive'>19</button>
+                  <button  className='inactive'>20</button>
+                  <button className='active-date'>21</button>
+                  <button  className='inactive'>22</button>
+                  <button  className='inactive'>23</button>
+                  <button  className='inactive'>24</button>
+                </div>
+
+              </div>
+            </div>
             <div className='offer-text'>
-              <p>Event Management</p>
+              <p>Customizable Views</p>
               <span>Manage your events with ease, from planning to execution, all in one place.</span>
             </div>
           </div>
           
           <div className='offer-box'>
-            <div className='offer-visuals'></div>
+            <div className='offer-visuals'>
+              <div className='custom'>
+                <div className='smart'>
+                  <img alt=''></img>
+                   <div className='smart-text'>
+                    <p>Schedule Conflict Detected</p>
+                    <span>We have suggested free times in the next 6 hours for you</span>
+                   </div>
+                </div>
+               
+                <div className='sugg'>
+                  <div className='sugg-long'></div>
+                  <div className='sugg-short'></div>
+                </div>
+
+
+                <div className='smart-actions'>
+                  <button>Reassign</button>
+                  <button>Move</button>
+                  <button>Merge</button>
+                </div>
+
+              </div>
+            </div>
             <div className='offer-text'>
-              <p>Team Collaboration</p>
+              <p>Smart Suggestion</p>
               <span>Work together with your team to achieve more with shared calendars and resources.</span>
             </div>
           </div>
@@ -45,15 +186,45 @@ function Bento() {
           <div className='offer-box'>
             <div className='offer-visuals'></div>
             <div className='offer-text'>
-              <p>Analytics and Insights</p>
+              <p>Event Templates</p>
               <span>Gain insights into your schedule and optimize your time management.</span>
             </div>
           </div>
 
           <div className='offer-box'>
-            <div className='offer-visuals'></div>
+            <div className='offer-visuals'>
+              <div className='color-scheme'>
+                <div className='color-box'>
+                  <span className='palette' id='green'></span>
+
+                  <div className='span'>
+                    <div className='long-span'></div>
+                    <div className='short-span'></div>
+                  </div>
+                </div>
+
+                <div className='color-box'>
+                  <span className='palette' id='pink'></span>
+
+                  <div className='span'>
+                    <div className='long-span'></div>
+                    <div className='short-span'></div>
+                  </div>
+                </div>
+
+                <div className='color-box'>
+                  <span className='palette' id='blue'></span>
+
+                  <div className='span'>
+                    <div className='long-span'></div>
+                    <div className='short-span'></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
             <div className='offer-text'>
-              <p>Analytics and Insights</p>
+              <p>Color-coded Events</p>
               <span>Gain insights into your schedule and optimize your time management.</span>
             </div>
           </div>
