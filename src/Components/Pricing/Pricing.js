@@ -32,7 +32,7 @@ function Pricing() {
 
                         <div className='pricing-detail'>
                             <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729371839/icons8-done-24_lqv2in.png' alt=''></img>
-                            <p>Limited playlist functionality</p>
+                            <p>Limited to 1 calendar</p>
                         </div>
 
                         <div className='pricing-detail'>
@@ -48,7 +48,7 @@ function Pricing() {
             <div className='pricing-mainbox'>
                 <div className='pricing-name'>
                     <span>Advanced</span>
-                    <h1>$9.99 <strong>/month</strong></h1>
+                    <h1>$1.99 <strong>/month</strong></h1>
                 </div>
 
                 <div className='pricing-features'>
@@ -66,12 +66,12 @@ function Pricing() {
 
                         <div className='pricing-detail'>
                             <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729371839/icons8-done-24_lqv2in.png' alt=''></img>
-                            <p>Newly-enhanced playlist functionality</p>
+                            <p> Unlimited calendarss</p>
                         </div>
 
                         <div className='pricing-detail'>
                             <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729371839/icons8-done-24_lqv2in.png' alt=''></img>
-                            <p>Cross-device compatibility</p>
+                            <p>Advanced integrations</p>
                         </div>
                     </div>
 
@@ -82,7 +82,7 @@ function Pricing() {
             <div className='pricing-box'>
                 <div className='pricing-name'>
                     <span>Pro</span>
-                    <h1>$13.99 <strong>/month</strong></h1>
+                    <h1>$3.99 <strong>/month</strong></h1>
                 </div>
 
                 <div className='pricing-features'>
@@ -95,7 +95,7 @@ function Pricing() {
 
                         <div className='pricing-detail'>
                             <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729371839/icons8-done-24_lqv2in.png' alt=''></img>
-                            <p>Dedicated account manager</p>
+                            <p>Custom solutions</p>
                         </div>
 
                         <div className='pricing-detail'>
