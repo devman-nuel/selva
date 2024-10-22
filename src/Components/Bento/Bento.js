@@ -184,7 +184,12 @@ function Bento() {
           </div>
           
           <div className='offer-box'>
-            <div className='offer-visuals'></div>
+            <div className='offer-visuals'>
+               <div className='event-template'>
+                 <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729606669/Group_1686553665_qmqv4y.jpg' alt=''></img>
+               </div>
+            </div>
+
             <div className='offer-text'>
               <p>Event Templates</p>
               <span>We have suggested available times in the next 6 hours for you</span>

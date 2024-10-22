@@ -284,6 +284,17 @@
     font-size: 0.6rem;
 }
 
+.event-template{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.event-template img{
+    width: 100%;
+}
+  
+  
+
 .color-scheme{
    background: #fff;
    padding: 25px;
