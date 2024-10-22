@@ -230,7 +230,7 @@ function Bento() {
             </div>
             <div className='offer-text'>
               <p>Color-coded Events</p>
-              <span>Organize your life at a glance by color-coding events. Easily distinguish between events for better clarity.</span>
+              <span>Organize your life at a glance by color-coding events to help distinguish between events</span>
             </div>
           </div>
         </div>
