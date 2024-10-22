@@ -192,7 +192,7 @@ function Bento() {
 
             <div className='offer-text'>
               <p>Event Templates</p>
-              <span>We have suggested available times in the next 6 hours for you</span>
+              <span>Save time with customizable event templates for recurring meetings, birthdays, and holidays</span>
             </div>
           </div>
 
