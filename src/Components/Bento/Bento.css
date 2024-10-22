@@ -56,6 +56,14 @@
 
 .delete{
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.delete img{
+    width: 14px;
+    height: 14px;
+    object-fit: cover;
 }
 
 .label{
@@ -67,6 +75,12 @@
     border-radius: 6px;
 }
 
+.label img{
+    width: 14px;
+    height: 14px;
+    object-fit: cover;   
+}
+
 .laps{
     display: flex;
     gap: 3%;
@@ -76,6 +90,7 @@
 .lap-box{
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background: #f5f5f5;
     padding: 10px;
@@ -84,6 +99,12 @@
 
 .lap-box p{
     color: #aaa;
+}
+
+.lap-box img{
+    width: 14px;
+    height: 14px;
+    object-fit: cover;  
 }
 
 .time-zone{
@@ -110,6 +131,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.globe img{
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
 }
 
 .zone{
@@ -157,10 +184,17 @@
     justify-content: space-between;
     font-family: 'Neue-Regular';
     font-size: 0.8rem;
+    gap: 10px;
     background: transparent;
     border: 1px solid #f0f0f0;
-    padding: 8px 14px;
+    padding: 8px 10px;
     border-radius: 6px;
+}
+
+.custom-mode button img{
+    width: 14px;
+    height: 14px;
+    object-fit: cover;   
 }
 
 .custom-date{
@@ -198,8 +232,9 @@
 }
 
 .smart img{
-    width: 20px;
-    height: 15px;
+    width: 2px;
+    height: 20px;
+    object-fit: cover;
 }
 
 .smart-text p{
@@ -352,6 +387,10 @@
         margin-top: 0;
         font-family: 'Neue-Regular';
       }
+
+      .custom-mode p{
+        font-size: 0.8rem;
+    }
 
       .custom-date button{
         border: none;

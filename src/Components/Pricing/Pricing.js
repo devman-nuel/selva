@@ -66,7 +66,7 @@ function Pricing() {
 
                         <div className='pricing-detail'>
                             <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729371839/icons8-done-24_lqv2in.png' alt=''></img>
-                            <p> Unlimited calendarss</p>
+                            <p> Unlimited calendars</p>
                         </div>
 
                         <div className='pricing-detail'>

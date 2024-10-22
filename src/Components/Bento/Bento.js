@@ -15,12 +15,12 @@ function Bento() {
                <div className='seamless-sche'>
                  <div className='delete'>
                   <p>21st October, 2024</p>
-                  <img alt=''></img>
+                  <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729584570/icons8-delete-64_fpmygz.png' alt=''></img>
                  </div>
 
                 <div className='label'>
                   <p>Frank's Graduation</p>
-                  <img alt=''></img>
+                  <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729584389/icons8-edit-64_wjljy0.png' alt=''></img>
                 </div>
 
                 <div className='laps'>
@@ -38,12 +38,12 @@ function Bento() {
                 <div className='laps'>
                   <div className='lap-box'>
                     <p>Reminder</p>
-                    <img alt=''></img>
+                    <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729584389/icons8-toggle-48_dujxku.png' alt=''></img>
                   </div>
 
                   <div className='lap-box'>
                     <p>Sync</p>
-                    <img alt=''></img>
+                    <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729584389/icons8-sync-50_duepks.png' alt=''></img>
                   </div>
                 </div>
 
@@ -61,7 +61,7 @@ function Bento() {
                  <div className='zone'>
                    <div className='zone-box'>
                     <div className='globe'>
-                      <img alt=''></img>
+                      <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729586447/icons8-globe-50_lbaa44.png' alt=''></img>
                     </div>
 
                     <div className='zone-text'>
@@ -79,7 +79,7 @@ function Bento() {
                  <div className='zone'>
                    <div className='zone-box'>
                     <div className='globe'>
-                      <img alt=''></img>
+                      <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729586447/icons8-globe-50_lbaa44.png' alt=''></img>
                     </div>
 
                     <div className='zone-text'>
@@ -97,7 +97,7 @@ function Bento() {
                  <div className='zone'>
                    <div className='zone-box'>
                     <div className='globe'>
-                      <img alt=''></img>
+                      <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729586447/icons8-globe-50_lbaa44.png' alt=''></img>
                     </div>
 
                     <div className='zone-text'>
@@ -130,7 +130,7 @@ function Bento() {
 
                   <button>
                     <p>Weekly</p>
-                    <img alt=''></img>
+                    <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729584389/icons8-filter-64_h1lgmd.png' alt=''></img>
                   </button>
                 </div>
 
@@ -156,10 +156,10 @@ function Bento() {
             <div className='offer-visuals'>
               <div className='custom'>
                 <div className='smart'>
-                  <img alt=''></img>
+                  <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1729584389/icons8-warning-48_upv5dd.png' alt=''></img>
                    <div className='smart-text'>
                     <p>Schedule Conflict Detected</p>
-                    <span>We have suggested free times in the next 6 hours for you</span>
+                    <span>We have suggested available times in the next 6 hours for you</span>
                    </div>
                 </div>
                
