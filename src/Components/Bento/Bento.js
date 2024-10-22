@@ -51,7 +51,7 @@ function Bento() {
             </div>
             <div className='offer-text'>
               <p>Seamless Scheduling</p>
-              <span>Effortlessly find common availability and schedule meetings seamlessly.</span>
+              <span>Effortlessly schedule meetings without the back-and-forth.</span>
             </div>
           </div>
 
@@ -118,7 +118,7 @@ function Bento() {
             </div>
             <div className='offer-text'>
               <p>Time Zone Management</p>
-              <span>Stay on top of your commitments with automated reminders and notifications.</span>
+              <span>Plan events across different time zones without the hassle.</span>
             </div>
           </div>
 
@@ -148,7 +148,7 @@ function Bento() {
             </div>
             <div className='offer-text'>
               <p>Customizable Views</p>
-              <span>Manage your events with ease, from planning to execution, all in one place.</span>
+              <span>Choose the view that works best for you—daily, weekly, or monthly.</span>
             </div>
           </div>
           
@@ -179,7 +179,7 @@ function Bento() {
             </div>
             <div className='offer-text'>
               <p>Smart Suggestion</p>
-              <span>Work together with your team to achieve more with shared calendars and resources.</span>
+              <span>Get smart suggestions for meeting times based on your existing schedules.</span>
             </div>
           </div>
           
@@ -187,7 +187,7 @@ function Bento() {
             <div className='offer-visuals'></div>
             <div className='offer-text'>
               <p>Event Templates</p>
-              <span>Gain insights into your schedule and optimize your time management.</span>
+              <span>We have suggested available times in the next 6 hours for you</span>
             </div>
           </div>
 
@@ -225,7 +225,7 @@ function Bento() {
             </div>
             <div className='offer-text'>
               <p>Color-coded Events</p>
-              <span>Gain insights into your schedule and optimize your time management.</span>
+              <span>Organize your life at a glance by color-coding events. Easily distinguish between events for better clarity.</span>
             </div>
           </div>
         </div>
