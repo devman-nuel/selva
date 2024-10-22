@@ -5,7 +5,7 @@ function Testimonial() {
   return (
     <div className='testimonial'>
       <div className='test-head'>
-        <h2>What Our Users Are Saying</h2>
+        <h2 data-animation="header">What Our Users Are Saying</h2>
         <p>Read testimonials from satisfied users who share their experiences and success stories with our services.</p>
       </div>
 

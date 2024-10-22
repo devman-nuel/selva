@@ -5,7 +5,7 @@ function Bento() {
   return (
     <div className='bento'>
       <div className='feature-head'>
-        <h2>Quick glance at what we offer</h2>
+        <h2 data-animation="header">Quick glance at what we offer</h2>
         <p>Explore our comprehensive services at a glance, designed to meet your needs efficiently and effectively.</p>
       </div>
 

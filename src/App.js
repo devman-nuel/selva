@@ -1,4 +1,4 @@
-import React  from "react";
+import React, { useEffect } from "react";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -8,11 +8,17 @@ import ScrollTop from './Components/Scrolltop';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Home from './Pages/Home/Home';
+import scroll from "./Animations/Scroll";
+import { split } from "./Animations/Text";
 import './App.css';
 
 
-const Layout = () => {
+scroll();
 
+const Layout = () => {
+  useEffect(() => {
+    split(); // Initialize split text animation
+  }, []);
 
   return (
     <div className="main">
