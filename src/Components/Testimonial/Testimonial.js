@@ -15,7 +15,7 @@ function Testimonial() {
         <div className="test-card">
           <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1729419396/3d-illustration-with-online-avatar_23-2151303080_zywh39.jpg" alt="User 1" />
           <p>"This app changed how I manage my time and increased my productivity significantly."</p>
-          <span>- John Doe</span>
+          <span>- Sam Doe</span>
         </div>
         <div className="test-card">
           <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1729419401/27470334_7309681_iaradb.jpg" alt="User 2" />
